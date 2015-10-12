@@ -648,7 +648,12 @@ input.search-form:hover {
 }
 
 .recent-work-wrap:hover .overlay {
-  opacity: 1;
+  opacity: .9;
+}
+
+#technology {
+  background: #000 url(../images/about_us/bg_technology.png) 50% 50% no-repeat;
+  background-size: cover;
 }
 
 #services {
@@ -949,7 +954,7 @@ a.accordion-toggle  i{
 }
 
 #partner {
-  background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
+  background: #000 url(../images/partners/partner_bg.png) 50% 50% no-repeat;
   background-size: cover;
 }
 

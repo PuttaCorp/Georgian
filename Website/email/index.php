@@ -27,6 +27,6 @@
 		header("Location:../contact.php?msg=Successful Submission! Thankyou for contacting us.");
 	else
 		header("Location:../contact.php?msg=Error To send Email !");
-		//contact:-your-email@your-domain.com
+		
  }
 ?>
