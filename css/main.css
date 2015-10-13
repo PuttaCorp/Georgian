@@ -44,7 +44,7 @@ h4{
 }
 
 a {
-  color: #c52d2f;
+  color: #DC143C;
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -63,7 +63,7 @@ hr {
 
 .btn-primary {
   padding: 8px 20px;
-  background: #c52d2f;
+  background: #DC143C;
   color: #fff;
   border-radius: 4px;
   border:none;
@@ -73,7 +73,7 @@ hr {
 
 .btn-primary:hover, 
 .btn-primary:focus{
-  background: #c52d2f;
+  background: #DC143C;
   outline: none;
   box-shadow: none;
 } 
@@ -224,7 +224,7 @@ ul.social-share li a {
 }
 
 ul.social-share li a:hover {
-  background: #c52d2f;
+  background: #DC143C;
   color: #fff;
 }
 
@@ -289,7 +289,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover{
-	background-color: #c52d2f;
+	background-color: #DC143C;
   color: #fff;
 }
 
@@ -309,7 +309,7 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #c52d2f;
+  background-color: #DC143C;
   color: #fff;
 }
 
@@ -339,7 +339,7 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
-  background-color: #c52d2f;
+  background-color: #DC143C;
   color: #fff;
 }
 
@@ -386,7 +386,7 @@ input.search-form:hover {
 
 #main-slider .carousel .btn-slide {
   padding: 8px 20px;
-  background: #c52d2f;
+  background: #DC143C;
   color: #fff;
   border-radius: 4px;
   margin-top: 25px;
@@ -434,7 +434,7 @@ input.search-form:hover {
 #main-slider .next {
   position: absolute;
   top: 50%;
-  background-color: #c52d2f;
+  background-color: #DC143C;
   color: #fff;
   display: inline-block;
   margin-top: -25px;
@@ -483,9 +483,9 @@ input.search-form:hover {
 #main-slider .carousel-indicators .active{
   width: 20px;
   height: 20px;
-  background-color: #c52d2f;
+  background-color: #DC143C;
    margin: 0 15px 0 0;
-   border: 1px solid #c52d2f;
+   border: 1px solid #DC143C;
    position: relative;
 }
 
@@ -495,8 +495,8 @@ input.search-form:hover {
   width: 24px;
   height: 24px;
   border-radius: 100%;
-  background: #c52d2f;
-  border: 1px solid #c52d2f;
+  background: #DC143C;
+  border: 1px solid #DC143C;
   left: -3px;
   top: -3px;
 }
@@ -564,7 +564,7 @@ input.search-form:hover {
   line-height: 110px;
   text-align:center;
   background: #ffffff;
-  color: #c52d2f;
+  color: #DC143C;
   border: 3px solid #ffffff;
   box-shadow: inset 0 0 0 5px #f2f2f2;
   -webkit-box-shadow: inset 0 0 0 5px #f2f2f2;
@@ -577,11 +577,11 @@ input.search-form:hover {
 }
 
 .feature-wrap i:hover {
-  background: #c52d2f;
+  background: #DC143C;
   color: #fff;
-  box-shadow: inset 0 0 0 5px #c52d2f;
-  -webkit-box-shadow: inset 0 0 0 5px #c52d2f;
-  border: 3px solid #c52d2f;
+  box-shadow: inset 0 0 0 5px #DC143C;
+  -webkit-box-shadow: inset 0 0 0 5px #DC143C;
+  border: 3px solid #DC143C;
 }
 
 #recent-works .col-xs-12.col-sm-4.col-md-3{
@@ -626,7 +626,7 @@ input.search-form:hover {
   height: 100%;
   opacity: 0;
   border-radius: 0;
-  background: #c52d2f;
+  background: #DC143C;
   color: #fff;
   vertical-align: middle;
   -webkit-transition: opacity 500ms;
@@ -648,7 +648,12 @@ input.search-form:hover {
 }
 
 .recent-work-wrap:hover .overlay {
-  opacity: 1;
+  opacity: .9;
+}
+
+#technology {
+  background: #000 url(../images/about_us/bg_technology.png) 50% 50% no-repeat;
+  background-size: cover;
 }
 
 #services {
@@ -838,12 +843,12 @@ a.accordion-toggle  i{
 }
 
 .panel-heading.active a.accordion-toggle i{
-  background: #c52d2f;
+  background: #DC143C;
   color: #fff;
 }
 
 .panel-heading.active a.accordion-toggle.collapsed i{
-  background: #c52d2f;
+  background: #DC143C;
   color: #fff;
 }
 
@@ -949,7 +954,7 @@ a.accordion-toggle  i{
 }
 
 #partner {
-  background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
+  background: #000 url(../images/partners/partner_bg.png) 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -971,7 +976,7 @@ a.accordion-toggle  i{
 
 .partners ul li{
   display: inline-block;
-  float: left;
+  float: center;
   width: 20%;
 }
 
@@ -1446,7 +1451,7 @@ ul.social_icons li  a i{
 }
 
 .request h4 a{
-  background:#c52d2f;
+  background:#DC143C;
   color: #fff;
   font-size: 14px;
   font-weight: normal;
@@ -1455,7 +1460,7 @@ ul.social_icons li  a i{
 }
 
 .request h4:after {
-  border-color: #c52d2f transparent transparent;
+  border-color: #DC143C transparent transparent;
   border-style: solid;
   border-width: 12px;
   bottom: -18px;
@@ -1467,7 +1472,7 @@ ul.social_icons li  a i{
 }
 
 .request h4:before {
-  border-color: #c52d2f transparent transparent;
+  border-color: #DC143C transparent transparent;
   border-style: solid;
   border-width: 12px;
   bottom: -18px;
@@ -1520,7 +1525,7 @@ ul.social_icons li  a i{
 
 .footer {
   background: none repeat scroll 0 0 #2E2E2E;
-  border-top: 5px solid #C52D2F;
+  border-top: 5px solid #DC143C;
   height: 84px;
   margin-top: 110px;
 }
@@ -1573,8 +1578,8 @@ ul.social_icons li  a i{
 .portfolio-filter > li a:hover,
 .portfolio-filter > li a.active{
   color:#fff;
-  background: #c52d2f;
-  border: 1px solid #c52d2f;
+  background: #DC143C;
+  border: 1px solid #DC143C;
   box-shadow: none;
   -webkit-box-shadow: none;
 }
@@ -1948,6 +1953,16 @@ textarea#message{
   margin-top: 20px;
 }
 
+.contact-left {
+  
+  
+}
+
+.contact-right {
+  
+}
+
+
 /*********************
 ****blog page css*****
 **********************/
@@ -2002,12 +2017,12 @@ textarea#message{
 }
 
 .blog_category li a:hover{
-  background:#c52d2f;
+  background:#DC143C;
   color: #fff;
 }
 
  .badge:before {
-  border-color: transparent transparent transparent #c52d2f;
+  border-color: transparent transparent transparent #DC143C;
   border-style: solid;
   border-width: 10px;
   bottom: -8px;
@@ -2019,7 +2034,7 @@ textarea#message{
 }
 
 .badge {
-  background-color: #c52d2f;
+  background-color: #DC143C;
   border-radius: 5px;
   color: #fff;
   padding: 8px;
@@ -2163,7 +2178,7 @@ ul.faq li > div h3 {
 }
 
 #publish_date {
-  background: #c52d2f;
+  background: #DC143C;
   border-bottom: 5px solid #4e4e4e;
   color: #fff;
   padding: 5px 0;
@@ -2196,8 +2211,8 @@ ul.pagination > li > a i{
 
 ul.pagination > li.active > a, 
 ul.pagination > li:hover > a {
-  background-color: #c52d2f !important;
-  border-color: #c52d2f !important;
+  background-color: #DC143C !important;
+  border-color: #DC143C !important;
   color: #fff;
 }
 
@@ -2238,7 +2253,7 @@ ul.sidebar-gallery {
 }
 
 .tag-cloud li a:hover{
-  background:#c52d2f;
+  background:#DC143C;
   color: #fff;  
 }
 
@@ -2377,7 +2392,7 @@ ul.sidebar-gallery {
 }
 
 .post_reply_comments h1 a:hover{
-  color:#c52d2f;
+  color:#DC143C;
 }
 
 .post_reply_comments h4{
@@ -2393,14 +2408,14 @@ ul.sidebar-gallery {
   bottom: 15px;
   position: absolute;
   right: 30px;
-  background: #c52d2f;
+  background: #DC143C;
   color: #fff;
   border-radius: 5px;
   padding: 8px 20px;
 }
 
 .post_reply_comments a:before {
-  border-color: #c52d2f transparent transparent;
+  border-color: #DC143C transparent transparent;
   border-style: solid;
   border-width: 16px;
   bottom: -11px;
@@ -2464,7 +2479,7 @@ shortcodes page css
 ************************/
 #bottom {
   background: #f5f5f5;
-  border-bottom: 5px solid #c52d2f;
+  border-bottom: 5px solid #DC143C;
   font-size: 14px;
 }
 
@@ -2492,7 +2507,7 @@ shortcodes page css
 }
 
 #bottom ul li a:hover {
-  color: #c52d2f;
+  color: #DC143C;
 }
 
 #bottom .widget {
@@ -2511,7 +2526,7 @@ shortcodes page css
 }
 
 #footer a:hover {
-  color: #c52d2f;
+  color: #DC143C;
 }
 
 #footer ul {
